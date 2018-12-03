@@ -1,0 +1,27 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #DEB887;
+}
+
+h1{
+  font-size: 24px;
+  font-style: italic;
+}
+
+h2{
+  font-size: 24px;
+  font-style: oblique;
+}
+
+p2{
+  font-size: 24px;
+}
+p3{
+  font-size: 18px;
+}
+
+.btn btn-info{
+
+}
