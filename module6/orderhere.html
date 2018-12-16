@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="candle.ico">
+
+    <title>Casey's Candles</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="homepage.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <a href="homepage.html"> <center> <img width="300" height="150" src="candlelogo.jpg"> </center> </a>
+
+    <h1> <center> Casey's Candles </center> </h1>
+
+    <div class="container">
+     <!--Static navbar -->
+     <nav class="navbar navbar-default">
+       <div class="container-fluid">
+         <div class="navbar-header">
+           <button class="navbar-toggle" aria-expanded="true" aria-controls="navbar" type="button" data-toggle="collapse" data-target="#navbar">...</button>
+           <div class="navbar-collapse collapse in" id="navbar" aria-expanded="true" style="">
+           <ul class="nav navbar-nav">
+             <li><a href="homepage.html">Home</a></li>
+             <li><a href="aboutme.html">About Me</a></li>
+             <li><a href="products.html">Products</a></li>
+             <li class="active"><a href="orderhere.html">Order Here</a></li>
+             <li><a href="contactus.html">Contact Us</a></li>
+           </ul>
+           </div>
+         </div><!--/.nav-collapse -->
+       </div><!--/.container-fluid -->
+     </nav>
+   </div>
+
+   <h3>Place Order Below</h3>
+   <form>
+
+     <div class="dropdown">
+       Questions about our products? Click here to see our
+       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Contact Information
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Casey-Sales: 320-888-2563</a></br>
+        <a class="dropdown-item" href="#">Jacob-Sales: 507-874-9948</a></br>
+        <a class="dropdown-item" href="#">Email: caseyscandles@gmail.com</a>
+      </div>
+      </div>
+
+   </br>
+
+     <div class="form-group">
+       <label for="text"> Name:</label>
+       <input type="text" class="form-control" id="name">
+     </div>
+
+     <div class="form-group">
+       <label for="email">Email:</label>
+       <input type="email" class="form-control" id="email">
+     </div>
+
+     <div class="form-group">
+       <label for="validation05">Phone</label>
+       <input type="phone" class="form-control" id="validation05" required>
+       <div class="invalid-feedback">
+         REQUIRED
+       </div>
+     </div>
+
+
+ <h5> Choose from the following Candle Collection baskets: </h5>
+       <div class="checkbox">
+         <label><input type="checkbox" value="">Spring Scents...$24.99</label>
+       </div>
+       <div class="checkbox">
+         <label><input type="checkbox" value="">Summer Lovin...$24.99</label>
+       </div>
+       <div class="checkbox">
+         <label><input type="checkbox" value="">Fall Favorites...$40.99</label>
+       </div>
+       <div class="checkbox">
+         <label><input type="checkbox" value="">Winter Wonderland...$52.99</label>
+       </div>
+     </br>
+     <div class="form-group">
+       <label for="comment">Enter order comments here:</label>
+       <textarea class="form-control" rows="2" columns="4" id="comment"></textarea>
+     </div>
+
+     <h5> Preferred Method of Contact for Order Information </h5>
+     <div class="radio">
+       <label><input type="radio" name="optradio">Phone Call</label>
+     </div>
+     <div class="radio">
+       <label><input type="radio" name="optradio">Text Message</label>
+     </div>
+     <div class="radio">
+       <label><input type="radio" name="optradio">Email</label>
+     </div></br>
+
+     <button type="submit" class="btn btn-primary">Submit</button>
+   </form>
+
+</br>
+
+  <div class="row">
+  <div class="col-md-4"> <img src="purplecandle.jpg" alt="candle" width="200" height="200"> </div>
+  <div class="col-md-4"> <img src="heartcandle.jpg" alt="candle" width="200" height="200"> </div>
+  <div class="col-md-4"> <img src="redorangecandle.jpg" alt="candle" width="200" height="200"> </div>
+  </div>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>

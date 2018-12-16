@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="candle.ico">
+
+    <title>Casey's Candles</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="homepage.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <a href="homepage.html"> <center> <img width="300" height="150" src="candlelogo.jpg"> </center> </a>
+      <h1> <center> Casey's Candles </center> </h1>
+
+    <center><button class="alert">Product Questions??</button></center>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+       // trigger when button click
+       $('.alert').on('click', function(){
+        toastr["error"]("Click on Contact Us page and we will be happy to help");
+       });
+
+       toastr.options = {
+         "closeButton": true,
+         "debug": false,
+         "newestOnTop": false,
+         "progressBar": false,
+         "positionClass": "toast-bottom-full-width",
+         "preventDuplicates": false,
+         "onclick": null,
+         "showDuration": "1000",
+         "hideDuration": "1000",
+         "timeOut": "10000",
+         "extendedTimeOut": "1000",
+         "showEasing": "swing",
+         "hideEasing": "linear",
+         "showMethod": "fadeIn",
+         "hideMethod": "fadeOut"
+       }
+    </script>
+
+  </head>
+
+  <body>
+
+  <div class="container">
+   <!--Static navbar -->
+   <nav class="navbar navbar-default">
+     <div class="container-fluid">
+       <div class="navbar-header">
+         <button class="navbar-toggle" aria-expanded="true" aria-controls="navbar" type="button" data-toggle="collapse" data-target="#navbar">...</button>
+         <div class="navbar-collapse collapse in" id="navbar" aria-expanded="true" style="">
+         <ul class="nav navbar-nav">
+           <li><a href="homepage.html">Home</a></li>
+           <li><a href="aboutme.html">About Me</a></li>
+           <li class="active"><a href="products.html">Products</a></li>
+           <li><a href="orderhere.html">Order Here</a></li>
+           <li><a href="contactus.html">Contact Us</a></li>
+         </ul>
+         </div>
+       </div><!--/.nav-collapse -->
+     </div><!--/.container-fluid -->
+   </nav>
+ </div>
+
+ <h1> OUR PRODUCTS PAGE IS CURRENTLY BEING UPDATED. COME BACK ON MONDAY, DECEMBER 17TH AT 8:00AM TO SEE OUR NEW AND IMPROVED PRODUCTS PAGE.</h1>
+
+
+  <div class="row">
+  <div class="col-md-4"> <img src="purplecandle.jpg" alt="candle" width="200" height="200"> </div>
+  <div class="col-md-4"> <img src="heartcandle.jpg" alt="candle" width="200" height="200"> </div>
+  <div class="col-md-4"> <img src="redorangecandle.jpg" alt="candle" width="200" height="200"> </div>
+  </div>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+  </body>
+</html>
